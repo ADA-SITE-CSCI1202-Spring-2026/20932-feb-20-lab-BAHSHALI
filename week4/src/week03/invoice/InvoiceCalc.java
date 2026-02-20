@@ -37,7 +37,7 @@ public class InvoiceCalc {
 
         for (int i = 0; i < invoices.length; i++) {
             System.out.println("Invoice " + (i + 1) +
-                    " Total: " + invoices[i].getInvoiceAmount());
+                    " Total: " + invoices[i].getInvoiceAmount()); //getInvoiceAmount shows as an error in ide but still compiles
         }
 
         input.close();
