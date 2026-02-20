@@ -1,7 +1,7 @@
 package week03.invoice;
 import java.util.Scanner;
 
-public class Test {
+public class InvoiceCalc {
 
     public static void main(String[] args) {
 
@@ -33,7 +33,7 @@ public class Test {
             invoices[i] = new Invoice(partNumber, partDescription, quantity, price);
         }
 
-        System.out.println("-_-_-_-_-_-1Invoice Results");
+        System.out.println("-_-_-_-_-_-Invoice Results");
 
         for (int i = 0; i < invoices.length; i++) {
             System.out.println("Invoice " + (i + 1) +
